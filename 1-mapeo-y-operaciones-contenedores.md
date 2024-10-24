@@ -18,7 +18,6 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 
 ```
 docker run -d --name jenkins-container --publish 8080:8080 --publish 50000:50000 jenkins/jenkins:alpine3.18-jdk11
-
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
@@ -39,7 +38,11 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+Lista los archivos y directorios en el directorio actual dentro del contenedor.
+
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+Muestra una lista detallada de los archivos y directorios, incluyendo información como permisos, número de enlaces, propietario, grupo, tamaño y fecha de modificación.
+
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
