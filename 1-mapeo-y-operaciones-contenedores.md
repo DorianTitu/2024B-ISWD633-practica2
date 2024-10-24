@@ -44,8 +44,12 @@ Lista los archivos y directorios en el directorio actual dentro del contenedor.
 Muestra una lista detallada de los archivos y directorios, incluyendo información como permisos, número de enlaces, propietario, grupo, tamaño y fecha de modificación.
 
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
+```
+docker exec jenkins-container ls -l
+```
 # COMPLETAR
-# COLOCAR UNA CAPTURA DE PANTALLA
+![image](https://github.com/user-attachments/assets/96dd42bf-8fb4-4187-8345-d67aac69e3d5)
+
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
